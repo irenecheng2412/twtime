@@ -1,0 +1,320 @@
+/*
+
+	Design by TEMPLATED
+	http://templated.co
+	Released for free under the Creative Commons Attribution License
+
+	Name       : Reverse Obscurity
+	Version    : 1.0
+	Released   : 20130222
+	
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #8f5038;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+body {
+	font-size: 10.5pt;
+	line-height: 1.75em;
+	font-family: Arial, sans-serif;
+	background: #FEDFE1 ;
+	color: #383939;
+}
+
+br.clear {
+	clear: both;
+}
+
+h1,h2,h3,h4 {
+	text-transform: lowercase;
+	font-weight: normal;
+}
+
+h2,h3,h4 {
+	margin-bottom: 1em;
+	font: 20px "Microsoft YaHei", arial, serif;
+	color: #000;
+}
+
+h2 {
+	font-size: 1.8em;
+}
+
+h3 {
+	font-size: 1.4em;
+}
+
+img.left {
+	float: left;
+	margin: 8px 20px 20px 0;
+}
+
+img.top {
+	margin: 8px 0 20px 0;
+}
+
+p {
+	margin-bottom: 1.75em;
+	font: 18px "Microsoft YaHei", arial, serif;
+}
+
+ul {
+	margin-bottom: 1.75em;
+}
+
+.imageList {
+	list-style: none;
+}
+
+.imageList li {
+	clear: both;
+}
+
+#bg {
+	background: url('images/highlight.png') top left repeat-x;
+}
+
+#banner {
+	position: relative;
+	padding: 28px;
+	height: 212px;
+	width: 1124px;
+	margin: 10px 0 0 0;
+	background: #ffffff;
+	border-bottom: solid 1px #c0c0c0;
+}
+
+#box1 {
+	width: 580px;
+	overflow: hidden;
+	margin: 0px 0 24px 0;
+}
+
+
+
+#content {
+	width: 600px;
+	margin: 0px 10px 0 312px;
+	padding: 10px;
+	background: #ffffff;
+	border-bottom: solid 1px #c0c0c0;
+	font-size:16px
+}
+#table { 
+  border: 0; 
+  font: 16px "Microsoft YaHei", arial, serif;
+  margin-left:auto; 
+  margin-right:auto;
+} 
+
+.tb{ 
+  border: 0; 
+  font: 16px "Microsoft YaHei", arial, serif;
+  margin-left:auto; 
+  margin-right:auto;
+ 
+} 
+
+td { 
+  vertical-align:top;
+  height:30px;
+padding:5px; 
+font: 16px "Microsoft YaHei", arial, serif;
+} 
+#copyright {
+	margin: 28px 0 64px 0;
+	text-align: center;
+	text-shadow: 0 1px 0 #ffffff;
+	color: #787979;
+}
+
+#copyright a {
+	color: #787979;
+}
+
+#footer {
+	position: relative;
+	height: 100px;
+	width: 1180px;
+	background: #64363C;
+	color: #d3d3d3;
+	font-size:18px
+}
+
+#footerContent {
+	width: 1180px;
+	height: 80px;
+	float: left;
+	white-space: pre;
+}
+
+#header {
+	position: relative;
+	padding: 28px;
+	height: 126px;
+	width: 1124px;
+}
+
+#logo {
+	text-align: center;
+	position: relative;
+	margin: -14px auto;
+	height: 98px;
+	line-height: 98px;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #000;
+	text-shadow: 0px 3px 0px #ffffff;
+}
+
+#logo h1 {
+	font-size: 3.25em;
+	font-family: Lobster, cursive;
+}
+
+#main {
+	position: relative;
+	padding: 0px;
+	margin: 28px 0 0 0;
+	width: 1180px;
+	color: #474747;
+}
+
+#main strong {
+	color: #242424;
+}
+
+#main h2, #main h3, #main h4 {
+	color: #0d0d0d;
+}
+
+#main ul {
+	list-style: none;
+}
+
+#main ul li {
+	padding: 8px 0 8px 0;
+	border-top: dotted 1px #bdbdbd;
+}
+
+#main ul.imageList li {
+	padding: 16px 0 16px 0;
+}
+
+#main ul li.first {
+	padding-top: 0;
+	border-top: 0;
+}
+
+#nav {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 1180px;
+	height: 56px;
+	line-height: 56px;
+	margin: 28px 0 0 0;
+	background: #64363C;
+	font-size: 1.38em;
+	font: "Microsoft YaHei", arial, serif;
+	border-bottom: solid 1px #6f3018;
+	border-top: solid 1px #ffffff;
+	text-shadow: 0 1px 0px #6f3018;
+	text-transform: lowercase;
+}
+
+#nav a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#nav ul {
+	list-style: none;
+	margin: 0 auto;
+	width: 1150px;
+	text-align: center;
+}
+
+#nav ul li {
+	display: inline;
+	text-align: center;
+	padding: 0 1.7em 0 1.7em;
+}
+
+#outer {
+	position: relative;
+	width: 1180px;
+	padding-top: 30px;
+	margin: 0 auto 0 auto;
+}
+
+#search input.button {
+	margin-left: 1em;
+	border: 0px;
+	color: #ffffff;
+	background: #8f5038;
+	padding: 5px;
+}
+
+#search input.text {
+	border: dotted 1px #000;
+	padding: 4px;
+}
+
+#sidebar1 {
+	width: 230px;
+	height: 550px;
+	float: left;
+	padding: 10px;
+	background: #ffffff;
+	color: #474747;
+	border-bottom: solid 1px #c0c0c0;
+}
+
+#sidebar1 h2, #sidebar1 h3, #sidebar1 h4 {
+	color: #000;
+}
+
+
+
+#sidebar2 {
+	width: 160px;
+	float: right;
+	padding: 10px;
+	background: #ffffff;
+	color: #474747;
+	border-bottom: solid 1px #c0c0c0;
+	 font: 16px "Microsoft YaHei", arial, serif;
+	
+}
+
+#sidebar2 h2, #sidebar2 h3, #sidebar2 h4 {
+	color: #000;
+}
+
+#sidebar2 ul {
+	list-style: none;
+}
+
+#sidebar2 ul li {
+	padding: 8px 0 8px 0;
+	border-top: dotted 1px #bdbdbd;
+}
+
+#sidebar2 ul li.first {
+	padding-top: 0;
+	border-top: 0;
+}
